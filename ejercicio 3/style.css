@@ -1,0 +1,148 @@
+
+        @import url('https://fonts.googleapis.com/css?family=Marko+One');
+    
+    }
+    
+    * {
+        font-family : Georgia;
+        font-size : 100% ;
+        line-height: 1.75em ;
+
+
+
+    }
+
+    body {
+        margin-right: 15% ;
+        margin-left: 15% ;
+        background-color: #d2dc9d ;
+
+        background-image: url('images/ladelicia.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        /**background-size: 100px ;*//
+
+    }
+    
+    h1 {
+        font : 1.5em  Marko One, Georgia , serif ;
+        color: purple;
+
+        text-shadow: .1em .1em .2em lightslategray ;
+    }
+    
+    p, dl {
+        font-size : 0.875em ;
+    }
+    
+    strong {
+        font-style : italic ;
+    }
+    
+    dt {
+        font-weight: bold;
+    }
+    
+    dt > strong {
+        color : maroon ;
+    }
+    
+    /*
+    #info {
+        color : teal ;
+    }
+    */
+
+
+    
+    h1  + p::first-line {
+        font-style : italic ;
+        color: gray ;
+
+
+    }
+    
+    .price {
+        font-family : Georgia, serifa;
+        font-style : italic ;
+        color: gray ;
+    }
+
+    .label {
+        font-variant: small-caps ;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .warning {
+        font-size: x-small;
+        color: red;
+
+    }
+
+    #info , h1 , h2 {
+        text-align: center;
+    }
+
+    h2 {
+        color: purple ;
+        text-transform: uppercase ;
+        letter-spacing: .5em ;
+
+    }
+
+    h2 + p{
+        text-align: center;
+        font-style : italic ;
+    }
+
+    dt {
+        color: sienna ;
+    }
+
+    ul {
+        list-style-type: none ;
+        margin: 0px ;
+        padding: 0px ;
+    }
+
+    a {
+        color: #939 ;
+        text-decoration: none ;
+    }
+
+    a:visited {
+        color: #937393 ;
+
+    }
+
+    a:hover {
+        color: #c700f2 ;
+        background-color: white ;
+    }
+
+    #header {
+        background-image: url('images/ladelicia-sombra.png');
+        background-position: right bottom ;
+        background-repeat: no-repeat;
+        background-color: rgba(255,255,255,0.5);
+
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-right: 30px;
+        padding-left: 30px;
+
+        
+
+    }
+
+
+
+
+
+
+
+
+    
+    
